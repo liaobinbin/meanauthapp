@@ -39,7 +39,7 @@ router.post('/authenticate', (req, res, next) => {
     if (!user) {
       return res.json({
         success: false,
-        meg: 'User not found'
+        msg: 'User not found'
       });
     }
 
